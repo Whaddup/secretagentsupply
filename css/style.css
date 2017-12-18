@@ -1,0 +1,162 @@
+
+
+html {font-size: 18px;
+}
+
+body {font-family: helvetica;
+display: flex;
+flex-direction: column;
+align-items: center;
+background-color: black;
+ }
+
+ .header_container { display: flex;
+   align-items: center;
+   background-color: black;
+   width: 960px;
+   border: 5px yellow solid;
+ color: white;}
+
+#logo_picture {height: 1.5rem;
+margin-right: 1rem;
+margin-left: 0.5rem;}
+
+ .logo_words {margin-top: 0.66rem;
+ margin-bottom: 0.66rem;}
+
+.overall_container {
+  border: 5px red solid;
+width: 100%;}
+
+.mainbody {
+border: 1px red solid;}
+
+.greetingbox_overall {
+  height: 25rem;
+  background-image: url("../images/moto.jpeg");
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  border: 3px green solid;
+  display: flex;
+  justify-content: center;
+  }
+
+  .box_blackbackground {border: 3px red solid;
+  width: 20rem;}
+
+.middle_greetingbox {width: 960px;
+margin-top: 9rem;
+}
+
+.greetingbox_top {border: 1px black solid;}
+.greetingbox_top p  {font-size: 1rem;
+font-weight: bold;
+color: white;
+padding-left: 3rem;}
+
+.greetingbox_bottom {border: 1px black solid;}
+.greetingbox_bottom p {border: 1px black solid;
+font-size: 2rem;
+font-weight: bold;
+color: white;
+padding-left: 3rem;}
+
+
+
+.menubar {display: flex;
+  justify-content: center;
+  border: 1px black solid;
+background-color: firebrick;
+}
+
+.menubar_innerbox {width: 960px;
+  display: flex;
+ justify-content: space-between;}
+.menubar_innerbox a {color: white;
+margin-top: 0.75rem;
+margin-bottom: 0.75rem;}
+
+/* .image_overalloveralloverall_container {display: flex;
+  width: 960px;
+flex-direction: row;
+justify-content: space-between;} */
+
+.image_overalloverall_container {display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+background-color: white;
+border: 5px green dotted;}
+
+
+.image_overall_container {display: flex;
+  width: 960px;
+justify-content: space-between;
+  border: 3px blue solid;
+}
+
+.imagebox {border: 4px black solid;
+height: 13rem;
+width: 30%;
+margin: 3rem;
+}
+
+.imagebox img {  padding-top: 2rem;
+  padding-bottom: 2rem;
+  height: 9rem; }
+
+
+.caption_box {border: 1px solid black;
+  color: white;
+  background-color: black;
+}
+
+.locationhours_box {
+width: 960px;
+margin-bottom: 4rem;
+  border: 5px red solid;
+  display: flex;
+flex-direction: row;
+justify-content: space-between;}
+
+.location_enclosure , .hours_enclosure {width: 35%;
+border: 3px green dashed;}
+
+.location_box_top {border: 2px yellow solid;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: black;
+  color: white;
+}
+
+#location_caption {margin-left: 2rem;
+padding-top: 1rem;
+margin-bottom: 1rem;}
+#hours_caption {margin-left: 2rem;}
+
+
+.location_box_bottom {border: 1px black solid;}
+
+.hours_box_top {border: 1px black solid;
+padding-top: 1rem;
+padding-bottom: 1rem;
+background-color: black;
+color: white;}
+
+.hours_box_bottom {border: 1px black solid;}
+
+.footer {border: 1px black solid;
+display: flex;
+height: 5rem;
+justify-content: center;
+align-items: center;
+background-color: black;}
+
+.copyrightnotice { width: 960px;
+  border: 5px blue solid
+}
+
+.copyrightnotice span {color: white;}
