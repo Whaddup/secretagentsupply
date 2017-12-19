@@ -14,7 +14,6 @@ background-color: black;
    align-items: center;
    background-color: black;
    width: 960px;
-   border: 5px yellow solid;
  color: white;}
 
 #logo_picture {height: 1.5rem;
@@ -25,11 +24,10 @@ margin-left: 0.5rem;}
  margin-bottom: 0.66rem;}
 
 .overall_container {
-  border: 5px red solid;
 width: 100%;}
 
-.mainbody {
-border: 1px red solid;}
+.mainbody {}
+
 
 .greetingbox_overall {
   height: 25rem;
@@ -39,22 +37,18 @@ border: 1px red solid;}
   background-position: center;
   background-size: cover;
 
-  border: 3px green solid;
   display: flex;
   justify-content: center;
     }
 
-.box_blackbackground {border: 3px red solid;
-width: 20rem;
+.box_blackbackground {width: 20rem;
 background-color: black;}
 
 .middle_greetingbox {width: 960px;
 padding-top: 9rem;
-border: 3px white solid;
 }
 
-.greetingbox_top {border: 1px black solid;
-}
+.greetingbox_top {}
 .greetingbox_top p  {font-size: 1rem;
 font-weight: bold;
 color: white;
@@ -62,9 +56,8 @@ padding-left: 3rem;
 padding-top: 2rem;
 margin-bottom:0.25rem;}
 
-.greetingbox_bottom {border: 1px black solid;}
-.greetingbox_bottom p {border: 1px black solid;
-font-size: 2rem;
+.greetingbox_bottom {}
+.greetingbox_bottom p {font-size: 2rem;
 font-weight: bold;
 color: white;
 padding-left: 3rem;
@@ -74,7 +67,6 @@ margin-top: 0px;}
 
 .menubar {display: flex;
   justify-content: center;
-  border: 1px black solid;
 background-color: firebrick;
 }
 
@@ -94,16 +86,14 @@ justify-content: space-between;} */
 justify-content: center;
 align-items: center;
 flex-direction: column;
-background-color: white;
-border: 5px green dotted;}
+background-color: white;}
 
 
 .image_overall_container {display: flex;
   width: 960px;
 justify-content: space-between;
 align-items: center;
-  border: 3px blue solid;
-}
+margin-top: 3rem;}
 
 .images {border: 4px solid black;
   display: flex;
@@ -118,8 +108,7 @@ padding-bottom: 2rem;}
 .imagebox img {height: 9rem;
 max-width: 100%;}
 
-.caption_box {border: 1px solid black;
-width: 100%;
+.caption_box {width: 100%;
 display: flex;
 justify-content: center;
 background-color: black;
@@ -131,16 +120,14 @@ padding-bottom: 0.5rem;}
 .locationhours_box {
 width: 960px;
 margin-bottom: 4rem;
-  border: 5px red solid;
+margin-top: 3rem;
   display: flex;
 flex-direction: row;
 justify-content: space-between;}
 
-.location_enclosure , .hours_enclosure {width: 35%;
-border: 3px green dashed;}
+.location_enclosure , .hours_enclosure {width: 35%; }
 
-.location_box_top {border: 2px yellow solid;
-  padding-top: 1rem;
+.location_box_top {padding-top: 1rem;
   padding-bottom: 1rem;
   background-color: black;
   color: white;
@@ -152,7 +139,7 @@ margin-bottom: 1rem;}
 #hours_caption {margin-left: 2rem;}
 
 
-.location_box_bottom {border: 1px black solid;}
+.location_box_bottom {}
 
 .hours_box_top {border: 1px black solid;
 padding-top: 1rem;
@@ -160,17 +147,14 @@ padding-bottom: 1rem;
 background-color: black;
 color: white;}
 
-.hours_box_bottom {border: 1px black solid;}
+.hours_box_bottom {}
 
-.footer {border: 1px black solid;
-display: flex;
+.footer {display: flex;
 height: 5rem;
 justify-content: center;
 align-items: center;
 background-color: black;}
 
-.copyrightnotice { width: 960px;
-  border: 5px blue solid
-}
+.copyrightnotice { width: 960px;}
 
 .copyrightnotice span {color: white;}
