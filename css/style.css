@@ -28,15 +28,12 @@ width: 100%;}
 
 .mainbody {}
 
-
 .greetingbox_overall {
   height: 25rem;
   background-image: url("../images/moto.jpeg");
-
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-
   display: flex;
   justify-content: center;
     }
@@ -76,11 +73,6 @@ background-color: firebrick;
 .menubar_innerbox a {color: white;
 margin-top: 0.75rem;
 margin-bottom: 0.75rem;}
-
-/* .image_overalloveralloverall_container {display: flex;
-  width: 960px;
-flex-direction: row;
-justify-content: space-between;} */
 
 .image_overalloverall_container {display: flex;
 justify-content: center;
@@ -153,7 +145,7 @@ color: white;}
 height: 5rem;
 justify-content: center;
 align-items: center;
-background-color: black;}
+background-color: red;}
 
 .copyrightnotice { width: 960px;}
 
